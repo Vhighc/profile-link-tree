@@ -34,7 +34,7 @@ const ContactForm = () => {
   return (
     <div>
       <ContactMe />
-      <form  className="mx-[auto] w-[50%] max-xl:w-[80%] max-sm:w-[90%]" onSubmit={handleSubmit}>
+      <form  className="mx-[auto] w-[50%] max-xl:w-[80%] mb-[7%]  max-sm:w-[90%]  max-sm:mb-[14%]" onSubmit={handleSubmit}>
         <div className="flex justify-between mb-[15px] max-sm:block">
           <div className="basis-[48%] max-sm:mb-[15px]">
             <label className="text-[#1c2129] text-[14px] font-medium">
@@ -126,8 +126,6 @@ const ContactForm = () => {
             className="rounded-[6px] w-[20px] h-[20px] mt-[15px] max-sm:w-[15px]
              max-sm:h-[15px] max-sm:rounded-[4px]"
             type="checkbox"
-            name=""
-            id=""
             required
           />
           <label className="ml-[2%] relative bottom-1 text-[#475467] text-[16px] font-normal max-sm:text-[14px]">
@@ -144,9 +142,7 @@ const ContactForm = () => {
           Send Message
         </button>
       </form>
-      {/* <div className="mt-[7%] "> */}
         <Footer />
-      {/* </div> */}
     </div>
   );
 };

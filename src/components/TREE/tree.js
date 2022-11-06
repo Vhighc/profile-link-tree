@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+
 
 
 const tree = () => {
@@ -86,7 +86,6 @@ const tree = () => {
           id="contact"
           className="rounded-[8px] mb-[1.5%] block w-[90%] mx-[auto] bg-gray-fade h-[100px] pt-[2%] text-center hover:bg-gray-bold max-lg:w-[85%] max-sm:mb-[5%] max-[425px]:h-[65px] max-[425px]:leading-[65px] max-sm:w-[90%] max-sm:pt-[0]"
           href="/contact"
-          // target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className=" text-[18px] max-sm:text-[16px] text-[#101828] font-semibold">
